@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="signup.css">
+
+
+<div class="consuper">
+<div class="singimg">
+<img alt="loading" class="im1" src="./img/Polish_20250130_123853912.jpg">
+</div>
+<div class ="personal-det">
+
+<span class="sname"><h2>Register</h2></span>
+<form action="SignupAction.jsp" method="post">
+<span class="infotext"><h2>Personal Details</h2></span>
+<input type="text" name ="firstname" class="sstyle" placeholder="First name">
+<input type="text" name ="lastname" class="sstyle" placeholder="Last name">
+
+<br>
+<input type="radio" name="gen" class="gender" value="Male" >
+<lable for="male">Male</lable>
+<input type="radio" name="gen" class="gender" value="female" >
+<lable for="female">Female</lable>
+
+<br>
+<span><h2>Email Address</h2></span>
+<input type ="email" name ="email" class="sstyle" placeholder="Email Address">
+<input type ="password" name ="password" class="sstyle" placeholder="Password">
+
+<br>
+<br>
+<span><h2>Mobile Number</h2></span>
+<input type ="number" name ="mobileno" class="sstyle" placeholder="Mobile Number">
+
+<input type="submit" value="Submit" class="loginbtn">
+
+</div>
+</div>
+</form>
+</body>
+</html>

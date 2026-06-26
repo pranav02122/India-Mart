@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+
+
+
+.addcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 52vw;
+    height: 95vh;
+    margin: 24px 134px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name\$num {
+
+
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+    gap: 39px;
+}
+
+.add-details {
+ 
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+    gap: 39px;
+}
+
+.address {
+    width: 38vw;
+    height: 14vh;
+    margin: 11px -19px;
+    padding: 0px 18px;
+}
+
+.landmark {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+    gap: 39px;
+}
+.add-localde{
+	
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+    gap: 39px;
+}
+
+input.address{
+	
+}
+	input.instyle {
+	width: 241px;
+    height: 25px;
+    padding: 11px 18px;
+}
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+
+input.save {
+    background-color: #0bd3ed;
+    width: 93px;
+    height: 38px;
+    margin: 36px 230px;
+    border-radius: 6px;
+    border: 1px solid #698e7c;
+    
+}
+h2.heading {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 0px;
+    color:#2000ff;
+}
+
+
+a.editbtn {
+  position: absolute;
+  z-index: 2;
+  left: 849px;
+  top: 62px;
+}
+.nothing {
+    height: 14vh;
+}
+
+
+
+#input-field:hover + label {
+  color: #666;
+  font-size: 12px;
+}
+
+#input-field:focus + label {
+  color: #333;
+  font-size: 14px;
+}

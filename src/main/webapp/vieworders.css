@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+    
+    a {
+    text-decoration: none;
+}
+
+    
+    body {
+      background-color: #f1f3f6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #061b3a;
+    padding: 10px 20px;
+    color: white;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .search-container {
+      background-color: #fff;
+      margin: 20px 0;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+    }
+    
+    .search-input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      outline: none;
+    }
+    
+    .search-button {
+      background-color: #2874f0;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    
+    .order-card {
+    background-color: white;
+    margin-bottom: -61px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+    
+    
+    .order-card:hover {
+    background-color: #cad4e0;
+    margin-bottom: -61px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+    .order-details {
+      display: flex;
+      padding: 20px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .product-image {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-right: 20px;
+    }
+    
+    .product-info {
+      flex: 1;
+    }
+    
+    .product-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+    }
+    
+    .product-meta {
+      color: #878787;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    .price {
+    font-weight: bold;
+    font-size: 18px;
+    min-width: 100px;
+    text-align: right;
+    margin: 15px 23px;
+    font-size: 21px;
+    color: black;
+    }
+    
+    .status {
+      min-width: 200px;
+      text-align: right;
+    }
+    
+    .status-text {
+    display: flex
+;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 22px;
+    position: relative;
+    top: 17px;
+    }
+    
+    .status-icon {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .status-delivered {
+      background-color: #388e3c;
+    }
+    
+    .status-cancelled {
+    background-color: #68ff61;
+    }
+    
+    .delivery-date {
+      font-weight: bold;
+    }
+    
+    .delivery-message {
+      color: #878787;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    .action-button {
+      color: #2874f0;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      padding: 0;
+      font-weight: 500;
+    }
+    
+    .star-icon {
+      margin-right: 5px;
+    }
+    
+    
+    
+    .delivery-timeline {
+      margin-top: 30px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+      text-align: center;
+    }
+    
+    .delivery-timeline h3 {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    
+    
+ .timeline-dates {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: -8px 536px;
+    top: 3px;
+    left: -418px;
+ }
+    
+    .date-box {
+      padding: 10px 15px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      color: #333;
+      font-weight: 500;
+      font-size: 14px;
+      z-index: 1;
+    }
+    
+    .delivery-date {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+    
+    .timeline-line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background-color: #1e88e5;
+      z-index: 0;
+      animation: blink 1.5s infinite;
+    }
+    
+ 
+.tracking-status {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #8f9096;
+    position: relative;
+    left: 470px;
+    top: 29px;
+}
+    
+    
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; }
+      100% { opacity: 1; }
+    }
+    
+ .cancel-button {
+    background-color: #868686;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    /* top: -109px; */
+    bottom: 20px;
+    left: 89%;
+ }
+        
+        .cancel-button:hover {
+            background-color: #e60000;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+        }
+        
+        .cancel-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }

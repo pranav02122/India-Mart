@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    background-color: #e1cff55e;
+    overflow: hidden;
+}
+.adpform {
+    display: flex
+;
+    /* align-items: center; */
+    justify-content: flex-end;
+    flex-direction: column;
+    /* padding: 16px; */
+    gap: 38px;
+    background-color: white;
+    width: 35vw;
+    margin: 15px 443px;
+    height: 95vh;
+    overflow: hidden;
+    padding: 7px 159px;
+}
+
+select.myselect {
+    width: 243px;
+    height: 37px;
+}
+h1.head {
+    margin: 0px -127px;
+    color: #0024ff;
+}
+
+.cent {
+    display: flex
+;
+    gap: 13px;
+}
+input.loginbtn {
+    width: 103px;
+    height: 36px;
+    align-items: center;
+    text-align: center;
+    background-color: #f4511e;
+    color: white;
+    border: 2px solid #ffffff;
+    outline: none;
+    margin: 15px 393px;
+    border-radius: 10px;
+}
+
+
+label {
+    margin-top: -24px;
+    margin-bottom: -17px;
+}
+input.sstyle {
+  width: 237px;
+  height: 21px;
+  
+  padding: 9px 9px;
+  margin-top: -12px;
+}
+.pinfo {
+  padding: 6px 12px;
+}
+
+select.myselect {
+  width: 243px;
+
+  height: 37px;
+}
+
+.myselect {
+  padding: 8px 5px;
+}

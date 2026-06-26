@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f1f3f6;
+            padding: 20px;
+        }
+        
+        .product-container {
+            max-width: 1200px;  /* Increased from 800px */
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;  /* Increased padding */
+               
+        margin-bottom: 42px;
+        }
+        
+        @media (min-width: 768px) {
+            .product-container {
+                flex-direction: row;
+            }
+        }
+        
+        .product-left {
+            flex: 0 0 45%;  /* Increased from 40% */
+            padding: 15px;  /* Increased padding */
+        }
+        
+        .product-right {
+            flex: 1;
+            padding: 15px;  /* Increased padding */
+        }
+        
+        .product-img {
+            height: 450px;  /* Increased from 300px */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;  /* Increased margin */
+            position: relative;
+        }
+        
+        
+        .new-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #c500c5;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;  /* Increased font size */
+            font-weight: bold;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;  /* Increased gap */
+            margin-top: 25px;  /* Increased margin */
+        }
+        
+        .action-buttons button {
+            flex: 1;
+                padding: 16px 60px;
+            border: none;
+            font-size: 18px;  /* Increased font size */
+            font-weight: bold;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        
+        .add-to-cart {
+    background-color: #0a0341;
+    color: white;
+        }
+        
+        .buy-now {
+    background-color: #1b32fb;
+    color: white;
+        }
+ .product-title2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.3;
+  height: auto;
+  overflow: inherit;
+  text-decoration: none;
+ }
+        
+        .price-section {
+    margin: 20px 0;
+    margin-bottom: 35px;
+        }
+        
+        .current-price2 {
+            font-size: 28px;  /* Increased font size */
+            font-weight: bold;
+        }
+        
+        .original-price2 {
+            text-decoration: line-through;
+            color: #878787;
+            margin-left: 20px;  /* Increased margin */
+            font-size: 18px;  /* Increased font size */
+        }
+        .discount1 {
+    color: #388e3c;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 17px;
+        }
+        
+        .offers-section {
+            margin-top: 25px;  /* Increased margin */
+        }
+        
+        .offers-title {
+            font-size: 20px;  /* Increased font size */
+            margin-bottom: 15px;  /* Increased margin */
+            font-weight: bold;
+        }
+        
+        .offer-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;  /* Increased gap */
+            margin-bottom: 16px;  /* Increased margin */
+        }
+        
+        .offer-icon {
+            color: #14be47;
+            font-size: 24px;  /* Increased font size */
+        }
+        
+        .offer-text {
+            font-size: 16px;  /* Increased font size */
+        }
+        
+        .tnc-link {
+            color: #2874f0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .highlights {
+            margin-top: 25px;  /* Increased margin */
+        }
+        
+        .highlights-title {
+            font-size: 20px;  /* Increased font size */
+            margin-bottom: 15px;  /* Increased margin */
+            font-weight: bold;
+        }
+        
+        .highlight-item {
+            margin-bottom: 12px;  /* Increased margin */
+            font-size: 16px;  /* Increased font size */
+            position: relative;
+            padding-left: 18px;  /* Increased padding */
+        }
+        
+        .highlight-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #878787;
+        }
+        
+ .pdet {
+    
+    height: auto;
+    width: auto;
+    padding: 18px 0px;
+    font-size: 15px;
+    overflow: inherit;
+        }
+        
+        .product-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    width: 285px;
+}
+
+.discount2 {
+  font-size: 14px;
+  color: green;
+  margin: 30px 7px;
+}
+
+.maincon2 {
+    display: inline-flex
+;
+    max-width: 1186px;
+    margin: 0 auto;
+    margin: -4px -22px;
+    /* background-color: aqua; */
+    padding: 3px 23px;
+}
+
+
+        .packaging-fee {
+            color: #212121;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        
+        .offers-section {
+            margin-top: 20px;
+        }
+        
+        .offers-title {
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .offer-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        
+        .offer-icon {
+            color: #14be47;
+            font-size: 20px;
+        }
+        
+        .offer-text {
+            font-size: 14px;
+        }
+        
+        span.msgcart {
+    font-size: 14px;
+    display: flex
+;
+    align-items: center;
+    justify-content: left;
+    margin: 7px 8px;
+    color: #00800b;
+    font-family: inherit;
+}
+        
